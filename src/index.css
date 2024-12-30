@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "poppins", sans-serif;
+  /* width: 100vw; */
+ min-height: 100vh;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading{
+  
+  font-size: 3rem;
+  text-align: center;
+  border: 5px dashed blue;
+  border-radius: 10px;
+  margin: 6vh;
+  padding: 1vh 5vw;
+  box-shadow: black 0px 3px 5px;
+}
+.tour{
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.card{
+ width: 300px;
+ height: max-content;
+ margin: 6px;
+ padding: 1px;
+ border-radius: 10px;
+ display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+box-shadow: black  0px 3px 5px;
+ 
+
+}
+.image{
+  width: 280px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+
+}
+.place{
+  font-size: 1.5rem;
+  color:green;
+  width: 290px;
+}
+ 
+
+.read{
+  cursor: pointer;
+  color: #12b0e8;
+}
+.des{
+  padding: 10px;
+  text-align: justify;
+}
+
+.not-intrest{
+  
+  margin:18px 10px;
+  padding: 10px 80px;
+  border: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius:10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #b4161b21;
+}
+.not-intrest:hover{
+  background-color: #b4161b;
+  color: white;
+  transition: all 0.3s;
+}
+
+.no-list{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  .refresh{
+    margin-top:18px;
+    padding:10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.refresh:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
